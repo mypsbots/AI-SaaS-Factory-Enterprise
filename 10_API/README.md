@@ -37,8 +37,26 @@ The API department upholds the ASFE specification and cross-cutting principles w
 
 ## Related Assets
 
-- [Rules](../Rules/)
-- [Checklists](../Checklists/)
-- [Playbooks](../Playbooks/)
-- [Templates](../Templates/)
-- [Knowledge](../Knowledge/)
+Documents directly relevant to the API department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
+
+### Rules
+
+- [API Standards](../Rules/API_Standards.md)
+- [Authentication And Authorization](../Rules/Authentication_And_Authorization.md)
+- [Error Handling](../Rules/Error_Handling.md)
+
+### Checklists
+
+- [API Review Checklist](../Checklists/API_Review_Checklist.md)
+
+### Templates
+
+- [ADR Template](../Templates/ADR_Template.md)
+- [RFC Template](../Templates/RFC_Template.md)
+
+### Knowledge
+
+- [Engineering Principles](../Knowledge/Engineering_Principles.md)
+- [Standards Index](../Knowledge/Standards_Index.md)
+- [Glossary](../Knowledge/Glossary.md)
+- [Technology Radar](../Knowledge/Technology_Radar.md)

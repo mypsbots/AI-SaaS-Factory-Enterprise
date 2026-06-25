@@ -37,8 +37,34 @@ The Backend department upholds the ASFE specification and cross-cutting principl
 
 ## Related Assets
 
-- [Rules](../Rules/)
-- [Checklists](../Checklists/)
-- [Playbooks](../Playbooks/)
-- [Templates](../Templates/)
-- [Knowledge](../Knowledge/)
+Documents directly relevant to the Backend department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
+
+### Rules
+
+- [API Standards](../Rules/API_Standards.md)
+- [Coding Standards](../Rules/Coding_Standards.md)
+- [Database Standards](../Rules/Database_Standards.md)
+- [Error Handling](../Rules/Error_Handling.md)
+
+### Checklists
+
+- [API Review Checklist](../Checklists/API_Review_Checklist.md)
+- [Code Review Checklist](../Checklists/Code_Review_Checklist.md)
+- [Database Migration Checklist](../Checklists/Database_Migration_Checklist.md)
+
+### Playbooks
+
+- [Database Migration Playbook](../Playbooks/Database_Migration_Playbook.md)
+
+### Templates
+
+- [ADR Template](../Templates/ADR_Template.md)
+- [RFC Template](../Templates/RFC_Template.md)
+- [Runbook Template](../Templates/Runbook_Template.md)
+
+### Knowledge
+
+- [Engineering Principles](../Knowledge/Engineering_Principles.md)
+- [Standards Index](../Knowledge/Standards_Index.md)
+- [Glossary](../Knowledge/Glossary.md)
+- [Technology Radar](../Knowledge/Technology_Radar.md)

@@ -37,8 +37,20 @@ The DevSecOps department upholds the ASFE specification and cross-cutting princi
 
 ## Related Assets
 
-- [Rules](../Rules/)
-- [Checklists](../Checklists/)
-- [Playbooks](../Playbooks/)
-- [Templates](../Templates/)
-- [Knowledge](../Knowledge/)
+Documents directly relevant to the DevSecOps department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
+
+### Rules
+
+- [Dependency Management](../Rules/Dependency_Management.md)
+
+### Templates
+
+- [RFC Template](../Templates/RFC_Template.md)
+
+### Knowledge
+
+- [Engineering Principles](../Knowledge/Engineering_Principles.md)
+- [Standards Index](../Knowledge/Standards_Index.md)
+- [Glossary](../Knowledge/Glossary.md)
+- [Technology Radar](../Knowledge/Technology_Radar.md)
+- [Security Reference Architecture](../Knowledge/Security_Reference_Architecture.md)

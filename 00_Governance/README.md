@@ -31,8 +31,24 @@ The Governance department upholds the ASFE specification and cross-cutting princ
 
 ## Related Assets
 
-- [Rules](../Rules/)
-- [Checklists](../Checklists/)
-- [Playbooks](../Playbooks/)
-- [Templates](../Templates/)
-- [Knowledge](../Knowledge/)
+Documents directly relevant to the Governance department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
+
+### Checklists
+
+- [Architecture Review Checklist](../Checklists/Architecture_Review_Checklist.md)
+
+### Templates
+
+- [SKILLS Template](../Templates/SKILLS_Template.md)
+- [RULES Template](../Templates/RULES_Template.md)
+- [CHECKLIST Template](../Templates/CHECKLIST_Template.md)
+- [PLAYBOOK Template](../Templates/PLAYBOOK_Template.md)
+- [KNOWLEDGE Template](../Templates/KNOWLEDGE_Template.md)
+- [ADR Template](../Templates/ADR_Template.md)
+
+### Knowledge
+
+- [Engineering Principles](../Knowledge/Engineering_Principles.md)
+- [Standards Index](../Knowledge/Standards_Index.md)
+- [Glossary](../Knowledge/Glossary.md)
+- [Technology Radar](../Knowledge/Technology_Radar.md)

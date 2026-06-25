@@ -31,8 +31,15 @@ The Executive department upholds the ASFE specification and cross-cutting princi
 
 ## Related Assets
 
-- [Rules](../Rules/)
-- [Checklists](../Checklists/)
-- [Playbooks](../Playbooks/)
-- [Templates](../Templates/)
-- [Knowledge](../Knowledge/)
+Documents directly relevant to the Executive department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
+
+### Templates
+
+- [PRD Template](../Templates/PRD_Template.md)
+
+### Knowledge
+
+- [Engineering Principles](../Knowledge/Engineering_Principles.md)
+- [Standards Index](../Knowledge/Standards_Index.md)
+- [Glossary](../Knowledge/Glossary.md)
+- [Technology Radar](../Knowledge/Technology_Radar.md)

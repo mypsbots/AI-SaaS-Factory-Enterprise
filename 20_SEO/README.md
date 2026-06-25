@@ -37,8 +37,19 @@ The SEO department upholds the ASFE specification and cross-cutting principles w
 
 ## Related Assets
 
-- [Rules](../Rules/)
-- [Checklists](../Checklists/)
-- [Playbooks](../Playbooks/)
-- [Templates](../Templates/)
-- [Knowledge](../Knowledge/)
+Documents directly relevant to the SEO department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
+
+### Checklists
+
+- [SEO AEO GEO Review Checklist](../Checklists/SEO_AEO_GEO_Review_Checklist.md)
+
+### Playbooks
+
+- [Feature Launch Playbook](../Playbooks/Feature_Launch_Playbook.md)
+
+### Knowledge
+
+- [Engineering Principles](../Knowledge/Engineering_Principles.md)
+- [Standards Index](../Knowledge/Standards_Index.md)
+- [Glossary](../Knowledge/Glossary.md)
+- [Technology Radar](../Knowledge/Technology_Radar.md)

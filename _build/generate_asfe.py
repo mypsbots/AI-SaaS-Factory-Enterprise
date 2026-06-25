@@ -27,6 +27,125 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEPT_BY_CODE = {code: (title, desc) for code, title, desc in DEPARTMENTS}
 WRITTEN = []
 
+# ---------------------------------------------------------------------------
+# Asset -> department mapping (drives the per-department "Related Assets" links).
+# An asset belongs to a department if its owning role maps to that department,
+# or any of its domain tags map to that department. This gives precise,
+# discoverable cross-references instead of bare folder links.
+# ---------------------------------------------------------------------------
+ROLE_TO_DEPT = {
+    "API Architect": "10_API",
+    "Principal Engineer": "05_Backend",
+    "Security Architect": "14_Security",
+    "Security Engineer": "14_Security",
+    "Privacy Engineer": "15_Privacy",
+    "Observability Engineer": "19_Observability",
+    "QA Lead": "17_QA",
+    "Engineering Manager": "12_DevOps",
+    "DevOps Engineer": "12_DevOps",
+    "Cloud Architect": "11_Cloud",
+    "Database Architect": "09_Database",
+    "Accessibility Specialist": "17_QA",
+    "Performance Engineer": "18_Performance",
+    "AI Engineering Director": "06_AI",
+    "Prompt Engineer": "06_AI",
+    "RAG Engineer": "07_RAG",
+    "DevSecOps Engineer": "13_DevSecOps",
+    "Technical Writer": "02_Product",
+    "Release Manager": "26_Release",
+    "Site Reliability Engineer": "27_Operations",
+    "Compliance Specialist": "16_Compliance",
+    "Frontend Lead": "04_Frontend",
+    "Enterprise Architect": "00_Governance",
+    "SEO/AEO/GEO Specialist": "20_SEO",
+    "Payments Engineer": "24_Finance",
+    "Product Manager": "02_Product",
+    "Customer Success": "23_CustomerSuccess",
+}
+
+TAG_TO_DEPTS = {
+    "backend": ["05_Backend"],
+    "frontend": ["04_Frontend"],
+    "api": ["10_API"],
+    "security": ["14_Security"],
+    "privacy": ["15_Privacy", "25_Legal"],
+    "compliance": ["16_Compliance", "25_Legal"],
+    "ai": ["06_AI"],
+    "eval": ["06_AI"],
+    "data": ["08_Data"],
+    "cloud": ["11_Cloud"],
+    "observability": ["19_Observability"],
+    "quality": ["17_QA"],
+    "performance": ["18_Performance"],
+    "accessibility": ["17_QA", "04_Frontend", "03_UX"],
+    "growth": ["20_SEO", "21_Marketing"],
+    "release": ["26_Release"],
+    "finance": ["24_Finance"],
+    "general": [],
+}
+
+# Templates relevant to specific departments (templates are otherwise general).
+TEMPLATE_MAP = {
+    "00_Governance": ["SKILLS_Template", "RULES_Template", "CHECKLIST_Template",
+                      "PLAYBOOK_Template", "KNOWLEDGE_Template", "ADR_Template"],
+    "01_Executive": ["PRD_Template"],
+    "02_Product": ["PRD_Template", "RFC_Template"],
+    "03_UX": ["PRD_Template"],
+    "04_Frontend": ["ADR_Template", "RFC_Template"],
+    "05_Backend": ["ADR_Template", "RFC_Template", "Runbook_Template"],
+    "06_AI": ["RFC_Template", "ADR_Template"],
+    "07_RAG": ["RFC_Template"],
+    "08_Data": ["ADR_Template"],
+    "09_Database": ["ADR_Template", "Runbook_Template"],
+    "10_API": ["ADR_Template", "RFC_Template"],
+    "11_Cloud": ["ADR_Template", "RFC_Template", "Runbook_Template"],
+    "12_DevOps": ["Runbook_Template", "ADR_Template"],
+    "13_DevSecOps": ["RFC_Template"],
+    "14_Security": ["Postmortem_Template", "RFC_Template"],
+    "15_Privacy": ["Postmortem_Template"],
+    "17_QA": ["CHECKLIST_Template"],
+    "19_Observability": ["Runbook_Template"],
+    "26_Release": ["Runbook_Template"],
+    "27_Operations": ["Runbook_Template", "Postmortem_Template"],
+}
+
+# Foundational knowledge linked from every department; domain knowledge added per department.
+FOUNDATIONAL_KNOWLEDGE = ["Engineering_Principles", "Standards_Index", "Glossary", "Technology_Radar"]
+KNOWLEDGE_DOMAIN_MAP = {
+    "11_Cloud": ["Security_Reference_Architecture"],
+    "13_DevSecOps": ["Security_Reference_Architecture"],
+    "14_Security": ["Security_Reference_Architecture"],
+    "16_Compliance": ["Security_Reference_Architecture"],
+    "06_AI": ["AI_Engineering_Reference"],
+    "07_RAG": ["AI_Engineering_Reference"],
+}
+
+
+def asset_departments(owner: str, tags) -> set:
+    depts = set()
+    if owner in ROLE_TO_DEPT:
+        depts.add(ROLE_TO_DEPT[owner])
+    for tag in tags:
+        depts.update(TAG_TO_DEPTS.get(tag, []))
+    return depts
+
+
+def assets_for_department(code: str) -> dict:
+    """Return the rules, checklists, playbooks, templates and knowledge linked to
+    a department, de-duplicated and sorted for stable, readable output."""
+    rules = sorted([r for r in RULES if code in asset_departments(r["owner"], r["tags"])],
+                   key=lambda x: x["name"])
+    checklists = sorted([c for c in CHECKLISTS if code in asset_departments(c["owner"], c["tags"])],
+                        key=lambda x: x["name"])
+    playbooks = sorted([p for p in PLAYBOOKS if code in asset_departments(p["owner"], p["tags"])],
+                       key=lambda x: x["name"])
+    template_names = TEMPLATE_MAP.get(code, [])
+    templates = [t for t in TEMPLATES if t["name"] in template_names]
+    knowledge_names = FOUNDATIONAL_KNOWLEDGE + KNOWLEDGE_DOMAIN_MAP.get(code, [])
+    knowledge = [k for nm in knowledge_names for k in KNOWLEDGE if k["name"] == nm]
+    return {"rules": rules, "checklists": checklists, "playbooks": playbooks,
+            "templates": templates, "knowledge": knowledge}
+
 
 def write(path: str, content: str) -> None:
     full = os.path.join(ROOT, path)
@@ -679,10 +798,33 @@ def gen_department_index(code: str, title: str, desc: str) -> str:
         parts.append(bullets([f"[{humanize(s['name'])}](../Skills/{s['name']}.md)" for s in related_skills]))
     parts.append(h(2, "Cross-cutting Principles"))
     parts.append(bullets(CROSS_CUTTING_PRINCIPLES))
+
+    assets = assets_for_department(code)
     parts.append(h(2, "Related Assets"))
-    parts.append(bullets(["[Rules](../Rules/)", "[Checklists](../Checklists/)",
-                          "[Playbooks](../Playbooks/)", "[Templates](../Templates/)",
-                          "[Knowledge](../Knowledge/)"]))
+    parts.append(f"Documents directly relevant to the {title} department. "
+                 "Browse the full libraries: "
+                 "[Rules](../Rules/) · [Checklists](../Checklists/) · "
+                 "[Playbooks](../Playbooks/) · [Templates](../Templates/) · "
+                 "[Knowledge](../Knowledge/).")
+
+    def link_list(items, folder):
+        return bullets([f"[{humanize(i['name'])}](../{folder}/{i['name']}.md)" for i in items])
+
+    if assets["rules"]:
+        parts.append(h(3, "Rules"))
+        parts.append(link_list(assets["rules"], "Rules"))
+    if assets["checklists"]:
+        parts.append(h(3, "Checklists"))
+        parts.append(link_list(assets["checklists"], "Checklists"))
+    if assets["playbooks"]:
+        parts.append(h(3, "Playbooks"))
+        parts.append(link_list(assets["playbooks"], "Playbooks"))
+    if assets["templates"]:
+        parts.append(h(3, "Templates"))
+        parts.append(link_list(assets["templates"], "Templates"))
+    if assets["knowledge"]:
+        parts.append(h(3, "Knowledge"))
+        parts.append(link_list(assets["knowledge"], "Knowledge"))
     return join_doc(parts)
 
 
