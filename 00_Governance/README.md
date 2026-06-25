@@ -43,6 +43,7 @@ Documents directly relevant to the Governance department. Browse the full librar
 
 - [Architecture Governance Standards](../Rules/Architecture_Governance_Standards.md)
 - [Document Lifecycle Governance](../Rules/Document_Lifecycle_Governance.md)
+- [Documentation Standards](../Rules/Documentation_Standards.md)
 
 ### Checklists
 

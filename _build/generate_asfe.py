@@ -73,8 +73,8 @@ TAG_TO_DEPTS = {
     "frontend": ["04_Frontend"],
     "api": ["10_API"],
     "security": ["14_Security"],
-    "privacy": ["15_Privacy", "25_Legal"],
-    "compliance": ["16_Compliance", "25_Legal"],
+    "privacy": ["15_Privacy"],
+    "compliance": ["16_Compliance"],
     "ai": ["06_AI"],
     "eval": ["06_AI"],
     "data": ["08_Data"],
@@ -114,6 +114,18 @@ TEMPLATE_MAP = {
     "27_Operations": ["Runbook_Template", "Postmortem_Template"],
 }
 
+# Curated cross-references: assets that are intentionally relevant to a department
+# beyond what its owner role and domain tags imply. Keeps cross-links precise
+# (industry best practice) instead of broad tag fan-out that creates noise.
+EXTRA_DEPT_ASSETS = {
+    # Legal owns contracting/licensing (via owner role) and consults on the
+    # regulatory standards that carry legal obligations.
+    "25_Legal": ["Data_Protection_And_Privacy", "Compliance_Standards",
+                 "GDPR_Readiness_Checklist", "Data_Privacy_Checklist"],
+    # Governance curates the document-authoring templates and core standards.
+    "00_Governance": ["Documentation_Standards"],
+}
+
 # Foundational knowledge linked from every department; domain knowledge added per department.
 FOUNDATIONAL_KNOWLEDGE = ["Engineering_Principles", "Standards_Index", "Glossary", "Technology_Radar"]
 KNOWLEDGE_DOMAIN_MAP = {
@@ -138,11 +150,15 @@ def asset_departments(owner: str, tags) -> set:
 def assets_for_department(code: str) -> dict:
     """Return the rules, checklists, playbooks, templates and knowledge linked to
     a department, de-duplicated and sorted for stable, readable output."""
-    rules = sorted([r for r in RULES if code in asset_departments(r["owner"], r["tags"])],
+    extra = set(EXTRA_DEPT_ASSETS.get(code, []))
+    rules = sorted([r for r in RULES
+                    if code in asset_departments(r["owner"], r["tags"]) or r["name"] in extra],
                    key=lambda x: x["name"])
-    checklists = sorted([c for c in CHECKLISTS if code in asset_departments(c["owner"], c["tags"])],
+    checklists = sorted([c for c in CHECKLISTS
+                         if code in asset_departments(c["owner"], c["tags"]) or c["name"] in extra],
                         key=lambda x: x["name"])
-    playbooks = sorted([p for p in PLAYBOOKS if code in asset_departments(p["owner"], p["tags"])],
+    playbooks = sorted([p for p in PLAYBOOKS
+                        if code in asset_departments(p["owner"], p["tags"]) or p["name"] in extra],
                        key=lambda x: x["name"])
     template_names = TEMPLATE_MAP.get(code, [])
     templates = [t for t in TEMPLATES if t["name"] in template_names]
