@@ -10,6 +10,12 @@ The Legal department upholds the framework specification and cross-cutting princ
 
 ---
 
+## Specialists (Skills)
+
+- [Legal Counsel](../Skills/Legal_Counsel.md)
+
+---
+
 ## Cross-cutting Principles
 
 - Security by Design

@@ -1,4 +1,4 @@
-"""Authoritative roster and tailored content for the 32 ASFE specialist SKILLS.
+"""Authoritative roster and tailored content for the 37 ASFE specialist SKILLS.
 
 Each entry follows the Master Skills Library roster. Lists are intentionally
 role-specific so the generated handbooks are substantive rather than generic.
@@ -1098,5 +1098,240 @@ SKILLS = [
             "Unclear ownership during incidents.",
         ],
         "kpis": ["Change failure rate", "Release predictability", "Rollback success", "Lead time for changes"],
+    },
+    {
+        "name": "Enterprise_Architect", "dept": "00_Governance", "reports_to": "Chief Technology Officer",
+        "collaborators": ["API Architect", "Cloud Architect", "Security Engineer", "AI Engineer", "Product Manager"],
+        "criticality": "Critical", "tags": ["general", "cloud", "security"],
+        "mission": "Define and govern the target architecture, standards, and technical decision-making that keep all SaaS products coherent, scalable, and aligned to business strategy.",
+        "responsibilities": [
+            "Own the reference architecture and architectural principles.",
+            "Chair architecture reviews and approve significant designs via ADRs.",
+            "Govern cross-cutting concerns: security, scalability, resilience, and cost.",
+            "Maintain the technology radar and steward standards adoption.",
+            "Resolve cross-team architectural conflicts and trade-offs.",
+            "Align architecture with product and business strategy.",
+            "Steward technical-debt and modernisation roadmaps.",
+        ],
+        "scope": [
+            "Target and reference architecture",
+            "Architecture governance and ADRs",
+            "Cross-cutting technical standards",
+        ],
+        "out_of_scope": [
+            "Day-to-day implementation (engineering teams)",
+            "People management (Engineering Managers)",
+        ],
+        "primary": [
+            "Keep systems coherent, scalable, and aligned to strategy.",
+            "Make architectural decisions explicit, reviewed, and recorded.",
+        ],
+        "deliverables": [
+            "Reference architecture and ADRs",
+            "Architecture review records",
+            "Technology radar and standards",
+        ],
+        "best_practices": [
+            "Record decisions as ADRs with context and consequences.",
+            "Favour evolutionary architecture and fitness functions.",
+            "Design for security, resilience, and cost from the start.",
+            "Prefer proven technology for core systems.",
+        ],
+        "anti_patterns": [
+            "Ivory-tower architecture detached from delivery.",
+            "Big up-front design with no iteration.",
+            "Undocumented, tribal architectural decisions.",
+        ],
+        "kpis": [
+            "Architecture review turnaround", "ADR coverage of significant decisions",
+            "Cross-system consistency", "Technical-debt trend",
+        ],
+    },
+    {
+        "name": "Chief_Technology_Officer", "dept": "01_Executive", "reports_to": "Chief Executive Officer",
+        "collaborators": ["Enterprise Architect", "AI Engineering Director", "Product Manager", "Security Engineer", "SaaS Finance"],
+        "criticality": "Critical", "tags": ["general", "release"],
+        "mission": "Set and execute the technology strategy that delivers secure, scalable, commercially successful SaaS products and a high-performing engineering organisation.",
+        "responsibilities": [
+            "Define technology vision, strategy, and OKRs.",
+            "Allocate engineering investment and manage the technology budget.",
+            "Own organisational technical risk, security posture, and compliance accountability.",
+            "Build and lead the engineering organisation and culture.",
+            "Sponsor architecture, AI, and platform direction.",
+            "Represent technology to the board, investors, and customers.",
+        ],
+        "scope": [
+            "Technology strategy and OKRs",
+            "Engineering organisation and budget",
+            "Executive technical risk ownership",
+        ],
+        "out_of_scope": [
+            "Hands-on implementation",
+            "Detailed design (Enterprise Architect)",
+        ],
+        "primary": [
+            "Deliver business outcomes through technology.",
+            "Sustain a secure, scalable, high-performing engineering organisation.",
+        ],
+        "deliverables": [
+            "Technology strategy and roadmap",
+            "Engineering OKRs and budgets",
+            "Executive risk and security reporting",
+        ],
+        "best_practices": [
+            "Tie technology investment to measurable business outcomes.",
+            "Make security, privacy, and reliability non-negotiable.",
+            "Empower teams with clear ownership and guardrails.",
+        ],
+        "anti_patterns": [
+            "Strategy disconnected from execution.",
+            "Chasing trends over customer value.",
+            "Underinvesting in security and reliability.",
+        ],
+        "kpis": [
+            "Business/OKR attainment", "Engineering efficiency (DORA metrics)",
+            "Security and compliance posture", "Talent retention",
+        ],
+    },
+    {
+        "name": "Data_Engineer", "dept": "08_Data", "reports_to": "Principal Engineer",
+        "collaborators": ["Database Architect", "RAG Engineer", "AI Engineer", "Privacy Engineer", "Backend Engineer"],
+        "criticality": "High", "tags": ["data", "backend", "privacy"],
+        "mission": "Build reliable, governed data pipelines and models that make trustworthy data available for analytics, ML, and AI.",
+        "responsibilities": [
+            "Design and operate batch and streaming pipelines (ETL/ELT).",
+            "Model analytical data (warehouse/lakehouse) for usability.",
+            "Ensure data quality, lineage, and observability.",
+            "Enforce data governance, classification, and privacy controls.",
+            "Provide clean, documented datasets to AI/RAG and analytics.",
+            "Manage schema evolution and backfills safely.",
+        ],
+        "scope": [
+            "Data ingestion and pipelines",
+            "Analytical data modelling",
+            "Data quality, lineage, and governance",
+        ],
+        "out_of_scope": [
+            "Operational/OLTP schema ownership (Database Architect)",
+            "Model serving and orchestration (AI Engineer)",
+        ],
+        "primary": [
+            "Deliver trustworthy, timely, well-governed data.",
+            "Make data discoverable and reusable across products.",
+        ],
+        "deliverables": [
+            "Data pipelines and orchestration",
+            "Documented datasets and a data dictionary",
+            "Data-quality and lineage reports",
+        ],
+        "best_practices": [
+            "Treat data as a product with owners and SLAs.",
+            "Validate data quality with automated tests.",
+            "Track lineage; classify and protect sensitive data.",
+            "Make pipelines idempotent and replayable.",
+        ],
+        "anti_patterns": [
+            "Undocumented, untested pipelines.",
+            "Copying PII into analytics without controls.",
+            "Silent schema drift breaking consumers.",
+        ],
+        "kpis": [
+            "Data freshness / SLA adherence", "Data-quality pass rate",
+            "Pipeline reliability", "Lineage coverage",
+        ],
+    },
+    {
+        "name": "Sales_Engineer", "dept": "22_Sales", "reports_to": "Head of Sales",
+        "collaborators": ["Product Manager", "Customer Success", "Product Marketing", "Security Engineer", "Backend Engineer"],
+        "criticality": "Medium", "tags": ["general", "growth"],
+        "mission": "Bridge customer needs and product capabilities through technical pre-sales, demos, and solution design that win and retain customers.",
+        "responsibilities": [
+            "Run technical discovery and qualify requirements.",
+            "Deliver tailored demos and proofs of concept.",
+            "Design solution architectures and integration plans for prospects.",
+            "Complete security questionnaires and RFPs with internal experts.",
+            "Channel field feedback to product and engineering.",
+            "Support clean onboarding handover to Customer Success.",
+        ],
+        "scope": [
+            "Technical pre-sales and discovery",
+            "Demos, POCs, and solution design",
+            "Security questionnaire and RFP responses",
+        ],
+        "out_of_scope": [
+            "Commercial negotiation and closing (Account Executives)",
+            "Production implementation (engineering teams)",
+        ],
+        "primary": [
+            "Win deals by proving technical fit and value.",
+            "Set accurate expectations to ensure successful adoption.",
+        ],
+        "deliverables": [
+            "Discovery and solution-design documents",
+            "Demo and POC environments",
+            "Completed RFP and security responses",
+        ],
+        "best_practices": [
+            "Lead with the customer problem, not features.",
+            "Scope POCs with clear, time-boxed success criteria.",
+            "Loop in Security/Privacy for accurate answers.",
+            "Hand over full context to Customer Success.",
+        ],
+        "anti_patterns": [
+            "Over-promising unsupported capabilities.",
+            "Unbounded, never-ending POCs.",
+            "Inaccurate security or compliance claims.",
+        ],
+        "kpis": [
+            "Technical win rate", "POC-to-close conversion",
+            "Time-to-POC", "Handover quality / early churn",
+        ],
+    },
+    {
+        "name": "Legal_Counsel", "dept": "25_Legal", "reports_to": "General Counsel",
+        "collaborators": ["Compliance Specialist", "Privacy Engineer", "Product Manager", "SaaS Finance", "Security Engineer"],
+        "criticality": "High", "tags": ["compliance", "privacy", "general"],
+        "mission": "Manage legal risk across contracts, licensing, IP, and regulation so the business ships and sells SaaS lawfully and safely.",
+        "responsibilities": [
+            "Draft and review customer contracts, MSAs, DPAs, and SLAs.",
+            "Manage software licensing and open-source compliance.",
+            "Advise on intellectual property, privacy, and regulatory obligations.",
+            "Support data-protection (GDPR/CCPA) and breach response with Privacy.",
+            "Review marketing and product claims for legal accuracy.",
+            "Manage vendor and partner agreements.",
+        ],
+        "scope": [
+            "Contracts, licensing, and IP",
+            "Regulatory and privacy counsel",
+            "Vendor and partner agreements",
+        ],
+        "out_of_scope": [
+            "Technical control implementation (Security/Privacy Engineering)",
+            "Compliance evidence operations (Compliance Specialist)",
+        ],
+        "primary": [
+            "Minimise legal risk while enabling the business.",
+            "Ensure lawful, compliant contracting and data handling.",
+        ],
+        "deliverables": [
+            "Contract templates and reviewed agreements",
+            "Licensing and open-source compliance guidance",
+            "Legal risk assessments",
+        ],
+        "best_practices": [
+            "Standardise contracts with approved templates and fallbacks.",
+            "Track open-source licences and their obligations.",
+            "Engage early on privacy and regulatory design.",
+            "Keep clear records for auditability.",
+        ],
+        "anti_patterns": [
+            "Bespoke contracts with no playbook.",
+            "Ignoring open-source licence obligations.",
+            "Legal review only at the last minute.",
+        ],
+        "kpis": [
+            "Contract turnaround time", "Risk issues caught pre-signature",
+            "Open-source compliance coverage", "Regulatory incidents",
+        ],
     },
 ]

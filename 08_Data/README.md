@@ -10,6 +10,12 @@ The Data department upholds the framework specification and cross-cutting princi
 
 ---
 
+## Specialists (Skills)
+
+- [Data Engineer](../Skills/Data_Engineer.md)
+
+---
+
 ## Cross-cutting Principles
 
 - Security by Design

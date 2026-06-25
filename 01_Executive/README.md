@@ -10,6 +10,12 @@ The Executive department upholds the framework specification and cross-cutting p
 
 ---
 
+## Specialists (Skills)
+
+- [Chief Technology Officer](../Skills/Chief_Technology_Officer.md)
+
+---
+
 ## Cross-cutting Principles
 
 - Security by Design

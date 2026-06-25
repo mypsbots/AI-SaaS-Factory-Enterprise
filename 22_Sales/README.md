@@ -10,6 +10,12 @@ The Sales department upholds the framework specification and cross-cutting princ
 
 ---
 
+## Specialists (Skills)
+
+- [Sales Engineer](../Skills/Sales_Engineer.md)
+
+---
+
 ## Cross-cutting Principles
 
 - Security by Design

@@ -10,6 +10,12 @@ The Governance department upholds the framework specification and cross-cutting 
 
 ---
 
+## Specialists (Skills)
+
+- [Enterprise Architect](../Skills/Enterprise_Architect.md)
+
+---
+
 ## Cross-cutting Principles
 
 - Security by Design

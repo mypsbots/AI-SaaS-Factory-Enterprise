@@ -21,14 +21,14 @@ the master prompts in [`_generators/`](_generators/), regenerable via
 
 | Type | Count |
 | --- | --- |
-| Specialist Skills | 32 |
+| Specialist Skills | 37 |
 | Engineering Rules | 24 |
 | Quality Checklists | 18 |
 | Operational Playbooks | 12 |
 | Document Templates | 10 |
 | Knowledge Articles | 6 |
 | Department Indexes | 28 |
-| **Total Markdown documents** | **132** |
+| **Total Markdown documents** | **137** |
 
 ---
 
@@ -140,6 +140,11 @@ Idea → Product → Architecture → Security → AI → Backend → Frontend �
 - [Payments Engineer](Skills/Payments_Engineer.md) — Finance
 - [Customer Success](Skills/Customer_Success.md) — Customer Success
 - [Release Manager](Skills/Release_Manager.md) — Release
+- [Enterprise Architect](Skills/Enterprise_Architect.md) — Governance
+- [Chief Technology Officer](Skills/Chief_Technology_Officer.md) — Executive
+- [Data Engineer](Skills/Data_Engineer.md) — Data
+- [Sales Engineer](Skills/Sales_Engineer.md) — Sales
+- [Legal Counsel](Skills/Legal_Counsel.md) — Legal
 
 ## Rules
 
