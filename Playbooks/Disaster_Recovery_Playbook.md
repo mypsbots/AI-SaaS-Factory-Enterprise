@@ -1,5 +1,6 @@
 ---
 id: PLAY-DISASTER_RECOVERY_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Cloud Architect
 department: Operations
 version: 1.0.0
@@ -115,7 +116,7 @@ Loss of a region, data store, or critical dependency.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

@@ -1,5 +1,6 @@
 ---
 id: CHK-STRIPE_INTEGRATION_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Payments Engineer
 department: Finance
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for Payment integrations.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for Payment integrations. A failed item blocks progre
 - [ ] Failed-payment dunning handled
 - [ ] Subscription lifecycle (proration/upgrades) tested
 - [ ] Test and live keys segregated
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -267,7 +268,7 @@ Any critical item fails, or evidence is missing for a required item.
 - ISO/IEC 27001
 - SOC 2 Type II
 - GDPR
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

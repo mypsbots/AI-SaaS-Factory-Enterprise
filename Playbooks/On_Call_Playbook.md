@@ -1,5 +1,6 @@
 ---
 id: PLAY-ON_CALL_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Site Reliability Engineer
 department: Operations
 version: 1.0.0
@@ -113,7 +114,7 @@ Start of an on-call rotation or a page.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

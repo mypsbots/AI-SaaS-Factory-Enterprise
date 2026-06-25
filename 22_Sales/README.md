@@ -6,7 +6,7 @@ Sales enablement and revenue operations.
 
 ## Mandate
 
-The Sales department upholds the ASFE specification and cross-cutting principles within its domain.
+The Sales department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

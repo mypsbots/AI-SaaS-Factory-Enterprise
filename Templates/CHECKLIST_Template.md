@@ -1,5 +1,6 @@
 ---
 id: TMPL-CHECKLIST_TEMPLATE
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Technical Writer
 department: Documentation
 version: 1.0.0
@@ -22,7 +23,7 @@ updated: 2026-06-25
 - Copy this template into the appropriate folder.
 - Replace placeholder guidance in each section.
 - Complete the metadata front matter.
-- Validate against the ASFE specification before publishing.
+- Validate against the framework specification before publishing.
 
 ---
 

@@ -6,7 +6,7 @@ Telemetry, monitoring, SLOs, and alerting.
 
 ## Mandate
 
-The Observability department upholds the ASFE specification and cross-cutting principles within its domain.
+The Observability department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

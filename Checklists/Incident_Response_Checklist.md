@@ -1,5 +1,6 @@
 ---
 id: CHK-INCIDENT_RESPONSE_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Site Reliability Engineer
 department: Operations
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for All incidents.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for All incidents. A failed item blocks progression u
 - [ ] Timeline captured
 - [ ] Postmortem scheduled
 - [ ] Remediation actions logged and owned
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -270,7 +271,7 @@ Any critical item fails, or evidence is missing for a required item.
 - Conventional Commits
 - DORA metrics
 - Twelve-Factor App
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

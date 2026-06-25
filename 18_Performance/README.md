@@ -6,7 +6,7 @@ Performance engineering and capacity planning.
 
 ## Mandate
 
-The Performance department upholds the ASFE specification and cross-cutting principles within its domain.
+The Performance department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

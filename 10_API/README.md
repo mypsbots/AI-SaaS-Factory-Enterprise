@@ -6,7 +6,7 @@ API design, contracts, versioning, and governance.
 
 ## Mandate
 
-The API department upholds the ASFE specification and cross-cutting principles within its domain.
+The API department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

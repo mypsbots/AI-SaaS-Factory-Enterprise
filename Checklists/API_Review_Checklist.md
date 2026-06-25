@@ -1,5 +1,6 @@
 ---
 id: CHK-API_REVIEW_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: API Architect
 department: API
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for All API changes.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for All API changes. A failed item blocks progression
 - [ ] Rate limits and quotas defined
 - [ ] Backward compatibility verified
 - [ ] Contract tests present and passing
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -272,7 +273,7 @@ Any critical item fails, or evidence is missing for a required item.
 - CIS Controls
 - ISO/IEC 27001
 - SOC 2 Type II
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

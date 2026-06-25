@@ -1,5 +1,6 @@
 ---
 id: PLAY-PRODUCTION_DEPLOYMENT_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: DevOps Engineer
 department: Release
 version: 1.0.0
@@ -113,7 +114,7 @@ A release is approved and all quality gates have passed.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

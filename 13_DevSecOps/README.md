@@ -6,7 +6,7 @@ Security automation across the delivery pipeline.
 
 ## Mandate
 
-The DevSecOps department upholds the ASFE specification and cross-cutting principles within its domain.
+The DevSecOps department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

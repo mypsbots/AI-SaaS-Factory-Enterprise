@@ -1,5 +1,6 @@
 ---
 id: PLAY-ROLLBACK_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Release Manager
 department: Release
 version: 1.0.0
@@ -113,7 +114,7 @@ Post-deploy verification fails or a regression is detected.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

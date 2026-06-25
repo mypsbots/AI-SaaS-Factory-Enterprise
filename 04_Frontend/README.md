@@ -6,7 +6,7 @@ Client applications, design system, and accessibility delivery.
 
 ## Mandate
 
-The Frontend department upholds the ASFE specification and cross-cutting principles within its domain.
+The Frontend department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

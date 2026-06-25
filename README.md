@@ -10,6 +10,11 @@ Every document is **Documentation-as-Code**: generated from versioned data table
 the master prompts in [`_generators/`](_generators/), regenerable via
 [`_build/generate_asfe.py`](_build/generate_asfe.py).
 
+> **Reusing a single file?** Individual Skills, Rules, Checklists, Playbooks, Templates,
+> and Knowledge articles are written to be framework-neutral, so you can lift any one of
+> them into your own project. The ASFE brand lives only here, in the
+> specification, and in each document's front-matter `framework` field.
+
 ---
 
 ## Contents

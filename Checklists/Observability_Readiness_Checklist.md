@@ -1,5 +1,6 @@
 ---
 id: CHK-OBSERVABILITY_READINESS_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Observability Engineer
 department: Operations
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for New/changed services.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for New/changed services. A failed item blocks progre
 - [ ] No secrets/PII in telemetry
 - [ ] Retention and sampling configured
 - [ ] Health/readiness endpoints present
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -261,7 +262,7 @@ Any critical item fails, or evidence is missing for a required item.
 - Core Web Vitals
 - RAIL model
 - Web Vitals
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: SKILL-FRONTEND_ENGINEER
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Frontend Engineer
 department: Frontend
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — Frontend Engineer
 
-> Specialist engineering handbook for the **Frontend Engineer** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **Frontend Engineer** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Build accessible, fast, and maintainable client applications that faithfully imp
 
 ## 3. Vision
 
-A Frontend Engineer function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A Frontend Engineer function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -98,7 +99,7 @@ The Frontend Engineer operates in the **Frontend** department, reports to the **
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -115,7 +116,7 @@ The Frontend Engineer operates in the **Frontend** department, reports to the **
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to Frontend
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -324,7 +325,7 @@ The Frontend Engineer operates in the **Frontend** department, reports to the **
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -340,7 +341,7 @@ The Frontend Engineer operates in the **Frontend** department, reports to the **
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -377,7 +378,7 @@ The Frontend Engineer operates in the **Frontend** department, reports to the **
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -394,7 +395,7 @@ The Frontend Engineer operates in the **Frontend** department, reports to the **
 - RAIL model (official standard/specification)
 - Web Vitals (official standard/specification)
 - OpenTelemetry (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

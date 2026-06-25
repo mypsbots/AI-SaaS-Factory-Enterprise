@@ -1,5 +1,6 @@
 ---
 id: SKILL-SEO_AEO_GEO_SPECIALIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: SEO AEO GEO Specialist
 department: SEO
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — SEO AEO GEO Specialist
 
-> Specialist engineering handbook for the **SEO AEO GEO Specialist** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **SEO AEO GEO Specialist** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Maximise organic discoverability across search engines, answer engines, and gene
 
 ## 3. Vision
 
-A SEO AEO GEO Specialist function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A SEO AEO GEO Specialist function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The SEO AEO GEO Specialist operates in the **SEO** department, reports to the **
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The SEO AEO GEO Specialist operates in the **SEO** department, reports to the **
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to SEO
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -314,7 +315,7 @@ The SEO AEO GEO Specialist operates in the **SEO** department, reports to the **
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -330,7 +331,7 @@ The SEO AEO GEO Specialist operates in the **SEO** department, reports to the **
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -367,7 +368,7 @@ The SEO AEO GEO Specialist operates in the **SEO** department, reports to the **
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -384,7 +385,7 @@ The SEO AEO GEO Specialist operates in the **SEO** department, reports to the **
 - WAI-ARIA 1.2 (official standard/specification)
 - EN 301 549 (official standard/specification)
 - Section 508 (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

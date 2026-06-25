@@ -14,6 +14,17 @@ VERSION = "1.0.0"
 TODAY = _dt.date.today().isoformat()
 
 # ---------------------------------------------------------------------------
+# Brand parameters. Change these to rebrand the entire corpus, then regenerate
+# with `python3 _build/generate_asfe.py`. The brand appears only in the root
+# README, the specification, and document front-matter metadata; document
+# bodies are intentionally framework-neutral so any single file is reusable
+# standalone.
+# ---------------------------------------------------------------------------
+FRAMEWORK_NAME = "AI SaaS Factory Enterprise"
+FRAMEWORK_ABBR = "ASFE"
+FRAMEWORK_FULL = f"{FRAMEWORK_NAME} ({FRAMEWORK_ABBR})"
+
+# ---------------------------------------------------------------------------
 # Cross-cutting principles enforced by every document (from the master prompts)
 # ---------------------------------------------------------------------------
 CROSS_CUTTING_PRINCIPLES = [

@@ -1,5 +1,6 @@
 ---
 id: SKILL-API_ARCHITECT
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: API Architect
 department: API
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — API Architect
 
-> Specialist engineering handbook for the **API Architect** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **API Architect** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Own the canonical API contracts, versioning strategy, and governance that keep i
 
 ## 3. Vision
 
-A API Architect function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A API Architect function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The API Architect operates in the **API** department, reports to the **Enterpris
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The API Architect operates in the **API** department, reports to the **Enterpris
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to API
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -321,7 +322,7 @@ The API Architect operates in the **API** department, reports to the **Enterpris
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -337,7 +338,7 @@ The API Architect operates in the **API** department, reports to the **Enterpris
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -374,7 +375,7 @@ The API Architect operates in the **API** department, reports to the **Enterpris
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -397,7 +398,7 @@ The API Architect operates in the **API** department, reports to the **Enterpris
 - CIS Controls (official standard/specification)
 - ISO/IEC 27001 (official standard/specification)
 - SOC 2 Type II (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

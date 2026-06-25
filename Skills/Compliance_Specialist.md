@@ -1,5 +1,6 @@
 ---
 id: SKILL-COMPLIANCE_SPECIALIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Compliance Specialist
 department: Compliance
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — Compliance Specialist
 
-> Specialist engineering handbook for the **Compliance Specialist** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **Compliance Specialist** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Achieve and sustain certifications and regulatory compliance through controls an
 
 ## 3. Vision
 
-A Compliance Specialist function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A Compliance Specialist function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The Compliance Specialist operates in the **Compliance** department, reports to 
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The Compliance Specialist operates in the **Compliance** department, reports to 
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to Compliance
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -315,7 +316,7 @@ The Compliance Specialist operates in the **Compliance** department, reports to 
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -331,7 +332,7 @@ The Compliance Specialist operates in the **Compliance** department, reports to 
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -368,7 +369,7 @@ The Compliance Specialist operates in the **Compliance** department, reports to 
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -387,7 +388,7 @@ The Compliance Specialist operates in the **Compliance** department, reports to 
 - CCPA/CPRA (official standard/specification)
 - ISO/IEC 27701 (official standard/specification)
 - NIST Privacy Framework (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

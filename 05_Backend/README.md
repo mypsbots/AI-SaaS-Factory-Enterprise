@@ -6,7 +6,7 @@ Services, business logic, and server-side reliability.
 
 ## Mandate
 
-The Backend department upholds the ASFE specification and cross-cutting principles within its domain.
+The Backend department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

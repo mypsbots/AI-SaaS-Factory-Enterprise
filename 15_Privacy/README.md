@@ -6,7 +6,7 @@ Data protection, privacy engineering, and DPIAs.
 
 ## Mandate
 
-The Privacy department upholds the ASFE specification and cross-cutting principles within its domain.
+The Privacy department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

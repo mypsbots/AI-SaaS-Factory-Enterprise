@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from asfe_common import (  # noqa: E402
     VERSION, TODAY, CROSS_CUTTING_PRINCIPLES, DEPARTMENTS,
+    FRAMEWORK_NAME, FRAMEWORK_ABBR, FRAMEWORK_FULL,
     front_matter, h, bullets, numbered, checkboxes, hr, standards_for, slugify_id,
 )
 from asfe_data_skills import SKILLS  # noqa: E402
@@ -202,7 +203,7 @@ UNIVERSAL_REVIEW = [
 ]
 
 UNIVERSAL_VALIDATION = [
-    "Document/feature follows the ASFE specification structure",
+    "Document/feature follows the framework specification structure",
     "Metadata (YAML front matter) is complete and accurate",
     "Purpose and scope are clearly stated",
     "Security considerations are documented and addressed",
@@ -238,6 +239,7 @@ UNIVERSAL_VALIDATION = [
 def metadata_block(doc_id, owner, dept, criticality, status="Active", review="Quarterly"):
     return front_matter({
         "id": doc_id,
+        "framework": FRAMEWORK_FULL,
         "owner": owner,
         "department": dept,
         "version": VERSION,
@@ -262,7 +264,7 @@ def gen_skill(s: dict) -> str:
     parts = []
     parts.append(metadata_block(doc_id, s["name"].replace("_", " "), dept_title, s["criticality"]))
     parts.append(h(1, f"SKILL — {title}"))
-    parts.append(f"> Specialist engineering handbook for the **{title}** role within the AI SaaS Factory Enterprise (ASFE).")
+    parts.append(f"> Specialist engineering handbook for the **{title}** role. Reusable across any SaaS product.")
 
     parts.append(h(2, "1. Purpose"))
     parts.append(f"Define the responsibilities, authority, standards, and quality expectations for the {title} so that AI assistants and human engineers deliver consistent, production-grade outcomes.")
@@ -271,7 +273,7 @@ def gen_skill(s: dict) -> str:
     parts.append(s["mission"])
 
     parts.append(h(2, "3. Vision"))
-    parts.append(f"A {title} function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.")
+    parts.append(f"A {title} function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.")
 
     parts.append(h(2, "4. Role Overview"))
     parts.append(f"The {title} operates in the **{dept_title}** department, reports to the **{s['reports_to']}**, and collaborates closely with {', '.join(collaborators)}.")
@@ -301,7 +303,7 @@ def gen_skill(s: dict) -> str:
     parts.append(h(2, "11. Inputs"))
     parts.append(bullets([
         "Approved requirements and acceptance criteria",
-        "Relevant ASFE rules, checklists, and templates",
+        "Relevant rules, checklists, and templates",
         "Upstream contracts, designs, and data",
     ]))
 
@@ -311,7 +313,7 @@ def gen_skill(s: dict) -> str:
     parts.append(h(2, "13. Required Knowledge"))
     parts.append(bullets([
         f"Deep domain expertise relevant to {dept_title}",
-        "ASFE specification, rules, and quality gates",
+        "The framework specification, rules, and quality gates",
         "Applicable industry standards (see section 20)",
     ]))
 
@@ -435,7 +437,7 @@ def gen_skill(s: dict) -> str:
 
     parts.append(h(2, "33. Deliverable Templates"))
     parts.append(bullets([
-        "Use ASFE Templates (see /Templates) for all outputs.",
+        "Use the shared document templates (see ../Templates/) for all outputs.",
         "Attach evidence (tests, scans, evals) to deliverables.",
     ]))
 
@@ -454,12 +456,12 @@ def gen_skill(s: dict) -> str:
     parts.append(bullets([
         "Review metrics and incidents to find improvements.",
         "Track evolving standards and update this skill.",
-        "Share learnings into ASFE Knowledge articles.",
+        "Share learnings into the shared knowledge base.",
     ]))
 
     parts.append(h(2, "37. References"))
     parts.append(bullets([f"{x} (official standard/specification)" for x in stds] +
-                         ["ASFE Specification (../ASFE_SPECIFICATION.md)"]))
+                         ["Specification (../ASFE_SPECIFICATION.md)"]))
 
     parts.append(h(2, "38. Version History"))
     parts.append("\n".join([
@@ -493,10 +495,10 @@ def gen_rule(r: dict) -> str:
     parts = []
     parts.append(metadata_block(doc_id, r["owner"], r["category"], r["priority"]))
     parts.append(h(1, f"RULE — {title}"))
-    parts.append(f"> Mandatory engineering standard. Part of the ASFE Engineering Constitution.")
+    parts.append(f"> Mandatory engineering standard. Reusable across any SaaS product.")
 
     parts.append(h(2, "1. Purpose"))
-    parts.append(f"Establish a reusable, enforceable standard for **{title}** across all ASFE SaaS products.")
+    parts.append(f"Establish a reusable, enforceable standard for **{title}** across all SaaS products.")
     parts.append(h(2, "2. Scope"))
     parts.append(f"Applies to: {r['applies_to']}.")
     parts.append(h(2, "3. Out of Scope"))
@@ -510,7 +512,7 @@ def gen_rule(r: dict) -> str:
     parts.append(h(2, "7. Industry Standards"))
     parts.append(bullets(stds))
     parts.append(h(2, "8. Definitions"))
-    parts.append("See the ASFE Glossary (../Knowledge/Glossary.md) for shared terminology.")
+    parts.append("See the Glossary (../Knowledge/Glossary.md) for shared terminology.")
     parts.append(h(2, "9. Applicability"))
     parts.append(f"Mandatory for {r['applies_to']}. Priority: **{r['priority']}**. Owner: **{r['owner']}**.")
     parts.append(h(2, "10. Mandatory Requirements (MUST)"))
@@ -559,7 +561,7 @@ def gen_rule(r: dict) -> str:
     parts.append(h(2, "27. Metrics & KPIs"))
     parts.append(bullets(["Compliance rate", "Exception count and age", "Related incident/defect rate"]))
     parts.append(h(2, "28. References"))
-    parts.append(bullets([f"{x}" for x in stds] + ["ASFE Specification (../ASFE_SPECIFICATION.md)"]))
+    parts.append(bullets([f"{x}" for x in stds] + ["Specification (../ASFE_SPECIFICATION.md)"]))
     parts.append(h(2, "29. Version History"))
     parts.append("\n".join(["| Version | Date | Change |", "| --- | --- | --- |",
                             f"| {VERSION} | {TODAY} | Initial standard. |"]))
@@ -597,7 +599,7 @@ def gen_checklist(c: dict) -> str:
     parts.append(bullets([f"Owner: {c['owner']}", f"Audience: {c['audience']}",
                           "Reviewer: independent peer or specialist"]))
     parts.append(h(2, "7. Inputs Required"))
-    parts.append(bullets(["The artefact under review", "Relevant ASFE rules and standards", "Test/scan/eval evidence"]))
+    parts.append(bullets(["The artefact under review", "Relevant rules and standards", "Test/scan/eval evidence"]))
     parts.append(h(2, "8. Acceptance Criteria"))
     parts.append("All items in the Primary Validation Checklist and applicable domain sections pass, with evidence.")
     parts.append(h(2, "9. Quality Gate"))
@@ -655,7 +657,7 @@ def gen_checklist(c: dict) -> str:
     parts.append(h(2, "27. Metrics"))
     parts.append(bullets(["Pass rate", "Defect escape rate after gate", "Time to complete checklist"]))
     parts.append(h(2, "28. References"))
-    parts.append(bullets([f"{x}" for x in stds] + ["ASFE Specification (../ASFE_SPECIFICATION.md)"]))
+    parts.append(bullets([f"{x}" for x in stds] + ["Specification (../ASFE_SPECIFICATION.md)"]))
     parts.append(h(2, "29. Metadata"))
     parts.append("\n".join([f"- **Checklist ID:** {doc_id}", f"- **Owner:** {c['owner']}",
                             f"- **Category:** {c['category']}", f"- **Version:** {VERSION}",
@@ -706,7 +708,7 @@ def gen_playbook(p: dict) -> str:
     parts.append(h(2, "12. Metrics"))
     parts.append(bullets(["Time to execute", "Success rate", "Recurrence rate", "Action-item closure"]))
     parts.append(h(2, "13. References"))
-    parts.append(bullets(["ASFE Specification (../ASFE_SPECIFICATION.md)",
+    parts.append(bullets(["Specification (../ASFE_SPECIFICATION.md)",
                           "Related checklists and runbooks in this repository."]))
     parts.append(h(2, "14. Metadata"))
     parts.append("\n".join([f"- **Playbook ID:** {doc_id}", f"- **Owner:** {p['owner']}",
@@ -730,7 +732,7 @@ def gen_template(t: dict) -> str:
     parts.append(bullets(["Copy this template into the appropriate folder.",
                           "Replace placeholder guidance in each section.",
                           "Complete the metadata front matter.",
-                          "Validate against the ASFE specification before publishing."]))
+                          "Validate against the framework specification before publishing."]))
     parts.append(h(2, "Front Matter"))
     parts.append("```yaml\n" + "\n".join([
         "---", "id: <DOC-ID>", "owner: <Owner>", "department: <Department>",
@@ -763,7 +765,7 @@ def gen_knowledge(k: dict) -> str:
     parts.append(h(2, "1. Summary"))
     parts.append(k["summary"])
     parts.append(h(2, "2. Context"))
-    parts.append("Curated reference knowledge for teams building SaaS products with ASFE.")
+    parts.append("Curated reference knowledge for teams building SaaS products.")
     parts.append(h(2, "3. Key Concepts"))
     parts.append(bullets(k["concepts"]))
     parts.append(h(2, "4. Guidance"))
@@ -771,7 +773,7 @@ def gen_knowledge(k: dict) -> str:
     parts.append(h(2, "5. Pitfalls"))
     parts.append(bullets(k["pitfalls"]))
     parts.append(h(2, "6. Related Documents"))
-    parts.append(bullets(["ASFE Specification (../ASFE_SPECIFICATION.md)",
+    parts.append(bullets(["Specification (../ASFE_SPECIFICATION.md)",
                           "Relevant Rules, Skills, and Checklists in this repository."]))
     parts.append(h(2, "7. References"))
     parts.append(bullets(["Official standards and primary sources (see Standards Index)."]))
@@ -792,7 +794,7 @@ def gen_department_index(code: str, title: str, desc: str) -> str:
     parts.append(h(1, f"{code} — {title}"))
     parts.append(desc)
     parts.append(h(2, "Mandate"))
-    parts.append(f"The {title} department upholds the ASFE specification and cross-cutting principles within its domain.")
+    parts.append(f"The {title} department upholds the framework specification and cross-cutting principles within its domain.")
     if related_skills:
         parts.append(h(2, "Specialists (Skills)"))
         parts.append(bullets([f"[{humanize(s['name'])}](../Skills/{s['name']}.md)" for s in related_skills]))
@@ -838,17 +840,22 @@ def gen_root_readme(counts: dict) -> str:
     play_list = "\n".join([f"- [{humanize(p['name'])}](Playbooks/{p['name']}.md)" for p in PLAYBOOKS])
     tmpl_list = "\n".join([f"- [{humanize(t['name'])}](Templates/{t['name']}.md)" for t in TEMPLATES])
     kb_list = "\n".join([f"- [{humanize(k['name'])}](Knowledge/{k['name']}.md)" for k in KNOWLEDGE])
-    return f"""# AI SaaS Factory Enterprise (ASFE)
+    return f"""# {FRAMEWORK_NAME} ({FRAMEWORK_ABBR})
 
 **A reusable AI engineering operating system for building production-grade SaaS products with AI assistants and human engineers.**
 
 Version: {VERSION} · Generated: {TODAY}
 
-ASFE is the single source of truth governing product engineering, AI engineering,
+{FRAMEWORK_ABBR} is the single source of truth governing product engineering, AI engineering,
 architecture, security, DevSecOps, quality, cloud, operations, growth, and governance.
 Every document is **Documentation-as-Code**: generated from versioned data tables and
 the master prompts in [`_generators/`](_generators/), regenerable via
 [`_build/generate_asfe.py`](_build/generate_asfe.py).
+
+> **Reusing a single file?** Individual Skills, Rules, Checklists, Playbooks, Templates,
+> and Knowledge articles are written to be framework-neutral, so you can lift any one of
+> them into your own project. The {FRAMEWORK_ABBR} brand lives only here, in the
+> specification, and in each document's front-matter `framework` field.
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: CHK-DATA_PRIVACY_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Privacy Engineer
 department: Privacy
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for Features handling personal data.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for Features handling personal data. A failed item bl
 - [ ] Access restricted to least privilege
 - [ ] Third-party sharing documented
 - [ ] Privacy notice updated if needed
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -268,7 +269,7 @@ Any critical item fails, or evidence is missing for a required item.
 - ISO/IEC 27001
 - SOC 2 Type II
 - PCI DSS 4.0
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: PLAY-COST_OPTIMIZATION_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Cloud Architect
 department: Cloud
 version: 1.0.0
@@ -113,7 +114,7 @@ Cost variance exceeds budget or a periodic review.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

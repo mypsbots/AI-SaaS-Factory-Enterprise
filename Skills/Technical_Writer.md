@@ -1,5 +1,6 @@
 ---
 id: SKILL-TECHNICAL_WRITER
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Technical Writer
 department: Product
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — Technical Writer
 
-> Specialist engineering handbook for the **Technical Writer** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **Technical Writer** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Produce clear, accurate, maintainable documentation that helps users and develop
 
 ## 3. Vision
 
-A Technical Writer function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A Technical Writer function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The Technical Writer operates in the **Product** department, reports to the **He
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The Technical Writer operates in the **Product** department, reports to the **He
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to Product
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -310,7 +311,7 @@ The Technical Writer operates in the **Product** department, reports to the **He
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -326,7 +327,7 @@ The Technical Writer operates in the **Product** department, reports to the **He
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -363,7 +364,7 @@ The Technical Writer operates in the **Product** department, reports to the **He
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -377,7 +378,7 @@ The Technical Writer operates in the **Product** department, reports to the **He
 - RFC 9457 (Problem Details) (official standard/specification)
 - OAuth 2.1 (official standard/specification)
 - AsyncAPI (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

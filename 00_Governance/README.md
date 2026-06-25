@@ -6,7 +6,7 @@ Enterprise governance, document lifecycle, RACI, and quality-gate ownership.
 
 ## Mandate
 
-The Governance department upholds the ASFE specification and cross-cutting principles within its domain.
+The Governance department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

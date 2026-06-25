@@ -1,5 +1,6 @@
 ---
 id: PLAY-PERFORMANCE_TUNING_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Performance Engineer
 department: Performance
 version: 1.0.0
@@ -113,7 +114,7 @@ Latency, throughput, or CWV breach a budget or SLO.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

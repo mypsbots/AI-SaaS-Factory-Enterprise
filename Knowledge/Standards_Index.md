@@ -1,5 +1,6 @@
 ---
 id: KB-STANDARDS_INDEX
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Enterprise Architect
 department: Knowledge
 version: 1.0.0
@@ -25,7 +26,7 @@ Index of external standards referenced across ASFE.
 
 ## 2. Context
 
-Curated reference knowledge for teams building SaaS products with ASFE.
+Curated reference knowledge for teams building SaaS products.
 
 ---
 
@@ -57,7 +58,7 @@ Curated reference knowledge for teams building SaaS products with ASFE.
 
 ## 6. Related Documents
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Relevant Rules, Skills, and Checklists in this repository.
 
 ---

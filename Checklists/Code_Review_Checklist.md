@@ -1,5 +1,6 @@
 ---
 id: CHK-CODE_REVIEW_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Principal Engineer
 department: Engineering
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for All pull requests.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for All pull requests. A failed item blocks progressi
 - [ ] Naming and structure are clear
 - [ ] No unnecessary duplication
 - [ ] Docs/comments updated where needed
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -269,7 +270,7 @@ Any critical item fails, or evidence is missing for a required item.
 - ISTQB
 - IEEE 829
 - Test Pyramid
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

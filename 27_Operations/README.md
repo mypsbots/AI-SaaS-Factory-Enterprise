@@ -6,7 +6,7 @@ Site reliability and production operations.
 
 ## Mandate
 
-The Operations department upholds the ASFE specification and cross-cutting principles within its domain.
+The Operations department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

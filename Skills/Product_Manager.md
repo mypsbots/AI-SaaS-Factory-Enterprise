@@ -1,5 +1,6 @@
 ---
 id: SKILL-PRODUCT_MANAGER
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Product Manager
 department: Product
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — Product Manager
 
-> Specialist engineering handbook for the **Product Manager** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **Product Manager** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Define the right problems and outcomes, prioritise ruthlessly, and align teams t
 
 ## 3. Vision
 
-A Product Manager function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A Product Manager function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The Product Manager operates in the **Product** department, reports to the **Hea
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The Product Manager operates in the **Product** department, reports to the **Hea
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to Product
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -305,7 +306,7 @@ The Product Manager operates in the **Product** department, reports to the **Hea
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -321,7 +322,7 @@ The Product Manager operates in the **Product** department, reports to the **Hea
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -358,7 +359,7 @@ The Product Manager operates in the **Product** department, reports to the **Hea
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -367,7 +368,7 @@ The Product Manager operates in the **Product** department, reports to the **Hea
 - Twelve-Factor App (official standard/specification)
 - SemVer 2.0.0 (official standard/specification)
 - Conventional Commits (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

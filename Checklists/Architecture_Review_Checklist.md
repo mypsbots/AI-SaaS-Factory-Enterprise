@@ -1,5 +1,6 @@
 ---
 id: CHK-ARCHITECTURE_REVIEW_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Enterprise Architect
 department: Architecture
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for Significant designs.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for Significant designs. A failed item blocks progres
 - [ ] Observability designed in
 - [ ] Cost implications assessed
 - [ ] Backward compatibility considered
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -269,7 +270,7 @@ Any critical item fails, or evidence is missing for a required item.
 - SOC 2 Type II
 - Google SRE (SLO/SLI)
 - RED/USE methods
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

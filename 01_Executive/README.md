@@ -6,7 +6,7 @@ Strategy, vision, OKRs, and cross-department alignment.
 
 ## Mandate
 
-The Executive department upholds the ASFE specification and cross-cutting principles within its domain.
+The Executive department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

@@ -6,7 +6,7 @@ Product and growth marketing.
 
 ## Mandate
 
-The Marketing department upholds the ASFE specification and cross-cutting principles within its domain.
+The Marketing department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

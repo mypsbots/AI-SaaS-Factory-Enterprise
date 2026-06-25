@@ -6,7 +6,7 @@ User research, interaction design, and usability.
 
 ## Mandate
 
-The UX department upholds the ASFE specification and cross-cutting principles within its domain.
+The UX department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

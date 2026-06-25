@@ -6,7 +6,7 @@ Product strategy, requirements, roadmap, and documentation.
 
 ## Mandate
 
-The Product department upholds the ASFE specification and cross-cutting principles within its domain.
+The Product department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

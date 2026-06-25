@@ -6,7 +6,7 @@ Data modelling, pipelines, governance, and analytics.
 
 ## Mandate
 
-The Data department upholds the ASFE specification and cross-cutting principles within its domain.
+The Data department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

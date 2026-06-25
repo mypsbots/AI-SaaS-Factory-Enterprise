@@ -1,5 +1,6 @@
 ---
 id: CHK-PERFORMANCE_AUDIT_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Performance Engineer
 department: Performance
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for User-facing features.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for User-facing features. A failed item blocks progre
 - [ ] Caching and compression applied
 - [ ] No N+1 or unbounded queries
 - [ ] Capacity headroom verified
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -265,7 +266,7 @@ Any critical item fails, or evidence is missing for a required item.
 - React
 - Google SRE (SLO/SLI)
 - RED/USE methods
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

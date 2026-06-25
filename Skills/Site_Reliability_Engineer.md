@@ -1,5 +1,6 @@
 ---
 id: SKILL-SITE_RELIABILITY_ENGINEER
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Site Reliability Engineer
 department: Operations
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — Site Reliability Engineer
 
-> Specialist engineering handbook for the **Site Reliability Engineer** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **Site Reliability Engineer** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Keep production reliable through SLOs, error budgets, capacity planning, and dis
 
 ## 3. Vision
 
-A Site Reliability Engineer function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A Site Reliability Engineer function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The Site Reliability Engineer operates in the **Operations** department, reports
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The Site Reliability Engineer operates in the **Operations** department, reports
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to Operations
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -312,7 +313,7 @@ The Site Reliability Engineer operates in the **Operations** department, reports
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -328,7 +329,7 @@ The Site Reliability Engineer operates in the **Operations** department, reports
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -365,7 +366,7 @@ The Site Reliability Engineer operates in the **Operations** department, reports
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -380,7 +381,7 @@ The Site Reliability Engineer operates in the **Operations** department, reports
 - SemVer 2.0.0 (official standard/specification)
 - Conventional Commits (official standard/specification)
 - DORA metrics (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

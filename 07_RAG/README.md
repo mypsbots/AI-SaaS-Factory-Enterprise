@@ -6,7 +6,7 @@ Retrieval-augmented generation pipelines and knowledge grounding.
 
 ## Mandate
 
-The RAG department upholds the ASFE specification and cross-cutting principles within its domain.
+The RAG department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

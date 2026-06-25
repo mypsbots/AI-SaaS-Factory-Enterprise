@@ -1,5 +1,6 @@
 ---
 id: PLAY-INCIDENT_RESPONSE_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Site Reliability Engineer
 department: Operations
 version: 1.0.0
@@ -115,7 +116,7 @@ An SLO breach, outage, or customer-impacting degradation is detected.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

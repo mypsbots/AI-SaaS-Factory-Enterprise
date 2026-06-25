@@ -6,7 +6,7 @@ CI/CD, infrastructure as code, and automation.
 
 ## Mandate
 
-The DevOps department upholds the ASFE specification and cross-cutting principles within its domain.
+The DevOps department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

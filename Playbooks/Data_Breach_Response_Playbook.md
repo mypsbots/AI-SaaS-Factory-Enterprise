@@ -1,5 +1,6 @@
 ---
 id: PLAY-DATA_BREACH_RESPONSE_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Privacy Engineer
 department: Privacy
 version: 1.0.0
@@ -114,7 +115,7 @@ Confirmed or suspected exposure of personal data.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

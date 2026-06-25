@@ -1,5 +1,6 @@
 ---
 id: PLAY-DATABASE_MIGRATION_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Database Architect
 department: Engineering
 version: 1.0.0
@@ -114,7 +115,7 @@ A schema change is required for a release.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

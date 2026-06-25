@@ -1,5 +1,6 @@
 ---
 id: CHK-PENETRATION_TEST_READINESS_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Security Engineer
 department: Security
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for Pre-pentest systems.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for Pre-pentest systems. A failed item blocks progres
 - [ ] Data handling and consent confirmed
 - [ ] Remediation SLA agreed
 - [ ] Retest plan defined
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -265,7 +266,7 @@ Any critical item fails, or evidence is missing for a required item.
 - SOC 2 Type II
 - GDPR
 - PCI DSS 4.0
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

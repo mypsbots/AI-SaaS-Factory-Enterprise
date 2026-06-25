@@ -6,7 +6,7 @@ Cloud architecture, networking, and well-architected design.
 
 ## Mandate
 
-The Cloud department upholds the ASFE specification and cross-cutting principles within its domain.
+The Cloud department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

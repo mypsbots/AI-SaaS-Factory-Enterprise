@@ -1,5 +1,6 @@
 ---
 id: CHK-DATABASE_MIGRATION_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Database Architect
 department: Engineering
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for Schema changes.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for Schema changes. A failed item blocks progression 
 - [ ] Data integrity constraints preserved
 - [ ] Migration tested on production-like data
 - [ ] Monitoring during rollout
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -265,7 +266,7 @@ Any critical item fails, or evidence is missing for a required item.
 - Twelve-Factor App
 - OAuth 2.1
 - OIDC
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

@@ -6,7 +6,7 @@ Onboarding, retention, and customer health.
 
 ## Mandate
 
-The Customer Success department upholds the ASFE specification and cross-cutting principles within its domain.
+The Customer Success department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

@@ -6,7 +6,7 @@ Database architecture, schema design, and migrations.
 
 ## Mandate
 
-The Database department upholds the ASFE specification and cross-cutting principles within its domain.
+The Database department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

@@ -6,7 +6,7 @@ Application and platform security engineering.
 
 ## Mandate
 
-The Security department upholds the ASFE specification and cross-cutting principles within its domain.
+The Security department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

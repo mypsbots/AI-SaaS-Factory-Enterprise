@@ -6,7 +6,7 @@ Release management and change control.
 
 ## Mandate
 
-The Release department upholds the ASFE specification and cross-cutting principles within its domain.
+The Release department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

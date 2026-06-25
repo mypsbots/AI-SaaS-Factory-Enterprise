@@ -1,5 +1,6 @@
 ---
 id: CHK-SEO_AEO_GEO_REVIEW_CHECKLIST
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: SEO/AEO/GEO Specialist
 department: Growth
 version: 1.0.0
@@ -59,7 +60,7 @@ Use before the relevant quality gate for Public web pages.
 ## 7. Inputs Required
 
 - The artefact under review
-- Relevant ASFE rules and standards
+- Relevant rules and standards
 - Test/scan/eval evidence
 
 ---
@@ -94,7 +95,7 @@ This checklist is the gate for Public web pages. A failed item blocks progressio
 - [ ] Content is clear and citable (AEO/GEO)
 - [ ] Internal linking is coherent
 - [ ] No render-blocking that hides content
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -266,7 +267,7 @@ Any critical item fails, or evidence is missing for a required item.
 - WAI-ARIA 1.2
 - EN 301 549
 - Section 508
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

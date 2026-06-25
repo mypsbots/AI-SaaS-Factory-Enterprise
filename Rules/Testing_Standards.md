@@ -1,5 +1,6 @@
 ---
 id: RULE-TESTING_STANDARDS
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: QA Lead
 department: Quality
 version: 1.0.0
@@ -13,13 +14,13 @@ updated: 2026-06-25
 
 # RULE — Testing Standards
 
-> Mandatory engineering standard. Part of the ASFE Engineering Constitution.
+> Mandatory engineering standard. Reusable across any SaaS product.
 
 ---
 
 ## 1. Purpose
 
-Establish a reusable, enforceable standard for **Testing Standards** across all ASFE SaaS products.
+Establish a reusable, enforceable standard for **Testing Standards** across all SaaS products.
 
 ---
 
@@ -64,7 +65,7 @@ Creates consistent, auditable, automatable behaviour that scales across teams an
 
 ## 8. Definitions
 
-See the ASFE Glossary (../Knowledge/Glossary.md) for shared terminology.
+See the Glossary (../Knowledge/Glossary.md) for shared terminology.
 
 ---
 
@@ -189,7 +190,7 @@ Apply the MUST requirements via automated checks in CI and code/design review. D
 
 ## 23. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -257,7 +258,7 @@ Compliant only if ALL mandatory (MUST) requirements are met and verified, with e
 - IEEE 829
 - Test Pyramid
 - Twelve-Factor App
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

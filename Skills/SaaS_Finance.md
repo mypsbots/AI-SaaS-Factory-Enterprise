@@ -1,5 +1,6 @@
 ---
 id: SKILL-SAAS_FINANCE
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: SaaS Finance
 department: Finance
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — SaaS Finance
 
-> Specialist engineering handbook for the **SaaS Finance** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **SaaS Finance** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Provide accurate SaaS financial management, forecasting, and unit-economics insi
 
 ## 3. Vision
 
-A SaaS Finance function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A SaaS Finance function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The SaaS Finance operates in the **Finance** department, reports to the **CFO**,
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The SaaS Finance operates in the **Finance** department, reports to the **CFO**,
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to Finance
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -308,7 +309,7 @@ The SaaS Finance operates in the **Finance** department, reports to the **CFO**,
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -324,7 +325,7 @@ The SaaS Finance operates in the **Finance** department, reports to the **CFO**,
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -361,7 +362,7 @@ The SaaS Finance operates in the **Finance** department, reports to the **CFO**,
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -373,7 +374,7 @@ The SaaS Finance operates in the **Finance** department, reports to the **CFO**,
 - SOC 2 Type II (official standard/specification)
 - ISO/IEC 27001 (official standard/specification)
 - GDPR (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 

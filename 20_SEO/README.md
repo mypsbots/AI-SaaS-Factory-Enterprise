@@ -6,7 +6,7 @@ SEO, AEO, and GEO discoverability engineering.
 
 ## Mandate
 
-The SEO department upholds the ASFE specification and cross-cutting principles within its domain.
+The SEO department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: KB-AI_ENGINEERING_REFERENCE
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Enterprise Architect
 department: Knowledge
 version: 1.0.0
@@ -25,7 +26,7 @@ Reference patterns for building safe, evaluated AI features.
 
 ## 2. Context
 
-Curated reference knowledge for teams building SaaS products with ASFE.
+Curated reference knowledge for teams building SaaS products.
 
 ---
 
@@ -58,7 +59,7 @@ Curated reference knowledge for teams building SaaS products with ASFE.
 
 ## 6. Related Documents
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Relevant Rules, Skills, and Checklists in this repository.
 
 ---

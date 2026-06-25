@@ -6,7 +6,7 @@ Quality engineering, test strategy, and accessibility QA.
 
 ## Mandate
 
-The QA department upholds the ASFE specification and cross-cutting principles within its domain.
+The QA department upholds the framework specification and cross-cutting principles within its domain.
 
 ---
 

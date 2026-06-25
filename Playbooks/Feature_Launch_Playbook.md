@@ -1,5 +1,6 @@
 ---
 id: PLAY-FEATURE_LAUNCH_PLAYBOOK
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Product Manager
 department: Product
 version: 1.0.0
@@ -114,7 +115,7 @@ A feature reaches launch readiness.
 
 ## 13. References
 
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 - Related checklists and runbooks in this repository.
 
 ---

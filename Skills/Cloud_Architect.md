@@ -1,5 +1,6 @@
 ---
 id: SKILL-CLOUD_ARCHITECT
+framework: AI SaaS Factory Enterprise (ASFE)
 owner: Cloud Architect
 department: Cloud
 version: 1.0.0
@@ -13,7 +14,7 @@ updated: 2026-06-25
 
 # SKILL — Cloud Architect
 
-> Specialist engineering handbook for the **Cloud Architect** role within the AI SaaS Factory Enterprise (ASFE).
+> Specialist engineering handbook for the **Cloud Architect** role. Reusable across any SaaS product.
 
 ---
 
@@ -31,7 +32,7 @@ Design secure, resilient, cost-aware cloud foundations aligned to well-architect
 
 ## 3. Vision
 
-A Cloud Architect function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product built with ASFE.
+A Cloud Architect function that is secure-by-default, measurable, automated, and continuously improving across every SaaS product you build.
 
 ---
 
@@ -92,7 +93,7 @@ The Cloud Architect operates in the **Cloud** department, reports to the **Enter
 ## 11. Inputs
 
 - Approved requirements and acceptance criteria
-- Relevant ASFE rules, checklists, and templates
+- Relevant rules, checklists, and templates
 - Upstream contracts, designs, and data
 
 ---
@@ -108,7 +109,7 @@ The Cloud Architect operates in the **Cloud** department, reports to the **Enter
 ## 13. Required Knowledge
 
 - Deep domain expertise relevant to Cloud
-- ASFE specification, rules, and quality gates
+- The framework specification, rules, and quality gates
 - Applicable industry standards (see section 20)
 
 ---
@@ -318,7 +319,7 @@ The Cloud Architect operates in the **Cloud** department, reports to the **Enter
 
 ## 33. Deliverable Templates
 
-- Use ASFE Templates (see /Templates) for all outputs.
+- Use the shared document templates (see ../Templates/) for all outputs.
 - Attach evidence (tests, scans, evals) to deliverables.
 
 ---
@@ -334,7 +335,7 @@ The Cloud Architect operates in the **Cloud** department, reports to the **Enter
 
 ## 35. Validation Checklist
 
-- [ ] Document/feature follows the ASFE specification structure
+- [ ] Document/feature follows the framework specification structure
 - [ ] Metadata (YAML front matter) is complete and accurate
 - [ ] Purpose and scope are clearly stated
 - [ ] Security considerations are documented and addressed
@@ -371,7 +372,7 @@ The Cloud Architect operates in the **Cloud** department, reports to the **Enter
 
 - Review metrics and incidents to find improvements.
 - Track evolving standards and update this skill.
-- Share learnings into ASFE Knowledge articles.
+- Share learnings into the shared knowledge base.
 
 ---
 
@@ -391,7 +392,7 @@ The Cloud Architect operates in the **Cloud** department, reports to the **Enter
 - SOC 2 Type II (official standard/specification)
 - Google SRE (SLO/SLI) (official standard/specification)
 - RED/USE methods (official standard/specification)
-- ASFE Specification (../ASFE_SPECIFICATION.md)
+- Specification (../ASFE_SPECIFICATION.md)
 
 ---
 
