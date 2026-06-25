@@ -1,0 +1,10 @@
+# Python build artefacts
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
