@@ -39,9 +39,15 @@ The Governance department upholds the framework specification and cross-cutting 
 
 Documents directly relevant to the Governance department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
 
+### Rules
+
+- [Architecture Governance Standards](../Rules/Architecture_Governance_Standards.md)
+- [Document Lifecycle Governance](../Rules/Document_Lifecycle_Governance.md)
+
 ### Checklists
 
 - [Architecture Review Checklist](../Checklists/Architecture_Review_Checklist.md)
+- [Document Quality Gate Checklist](../Checklists/Document_Quality_Gate_Checklist.md)
 
 ### Templates
 

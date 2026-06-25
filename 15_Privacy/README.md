@@ -42,12 +42,17 @@ Documents directly relevant to the Privacy department. Browse the full libraries
 ### Rules
 
 - [Compliance Standards](../Rules/Compliance_Standards.md)
+- [Contracting Standards](../Rules/Contracting_Standards.md)
+- [Data Engineering Standards](../Rules/Data_Engineering_Standards.md)
+- [Data Governance Standards](../Rules/Data_Governance_Standards.md)
 - [Data Protection And Privacy](../Rules/Data_Protection_And_Privacy.md)
 - [Security Standards](../Rules/Security_Standards.md)
 
 ### Checklists
 
+- [Contract Review Checklist](../Checklists/Contract_Review_Checklist.md)
 - [Data Privacy Checklist](../Checklists/Data_Privacy_Checklist.md)
+- [Data Quality Checklist](../Checklists/Data_Quality_Checklist.md)
 - [GDPR Readiness Checklist](../Checklists/GDPR_Readiness_Checklist.md)
 
 ### Playbooks

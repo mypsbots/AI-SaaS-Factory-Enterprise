@@ -41,6 +41,7 @@ Documents directly relevant to the Cloud department. Browse the full libraries: 
 
 ### Rules
 
+- [Architecture Governance Standards](../Rules/Architecture_Governance_Standards.md)
 - [CI CD Standards](../Rules/CI_CD_Standards.md)
 - [Infrastructure As Code](../Rules/Infrastructure_As_Code.md)
 - [Secrets Management](../Rules/Secrets_Management.md)

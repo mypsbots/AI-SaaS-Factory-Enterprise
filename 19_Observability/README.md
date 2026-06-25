@@ -47,6 +47,7 @@ Documents directly relevant to the Observability department. Browse the full lib
 ### Checklists
 
 - [Architecture Review Checklist](../Checklists/Architecture_Review_Checklist.md)
+- [Data Pipeline Readiness Checklist](../Checklists/Data_Pipeline_Readiness_Checklist.md)
 - [Disaster Recovery Checklist](../Checklists/Disaster_Recovery_Checklist.md)
 - [Incident Response Checklist](../Checklists/Incident_Response_Checklist.md)
 - [Observability Readiness Checklist](../Checklists/Observability_Readiness_Checklist.md)

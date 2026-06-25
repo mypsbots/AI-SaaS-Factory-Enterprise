@@ -39,6 +39,10 @@ The SEO department upholds the framework specification and cross-cutting princip
 
 Documents directly relevant to the SEO department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
 
+### Rules
+
+- [Pre Sales Engineering Standards](../Rules/Pre_Sales_Engineering_Standards.md)
+
 ### Checklists
 
 - [SEO AEO GEO Review Checklist](../Checklists/SEO_AEO_GEO_Review_Checklist.md)

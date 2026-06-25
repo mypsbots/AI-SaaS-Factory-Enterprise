@@ -43,6 +43,7 @@ Documents directly relevant to the Security department. Browse the full librarie
 
 - [AI LLM Usage](../Rules/AI_LLM_Usage.md)
 - [API Standards](../Rules/API_Standards.md)
+- [Architecture Governance Standards](../Rules/Architecture_Governance_Standards.md)
 - [Authentication And Authorization](../Rules/Authentication_And_Authorization.md)
 - [CI CD Standards](../Rules/CI_CD_Standards.md)
 - [Coding Standards](../Rules/Coding_Standards.md)
@@ -66,6 +67,7 @@ Documents directly relevant to the Security department. Browse the full librarie
 - [GDPR Readiness Checklist](../Checklists/GDPR_Readiness_Checklist.md)
 - [Incident Response Checklist](../Checklists/Incident_Response_Checklist.md)
 - [Penetration Test Readiness Checklist](../Checklists/Penetration_Test_Readiness_Checklist.md)
+- [Sales POC Readiness Checklist](../Checklists/Sales_POC_Readiness_Checklist.md)
 - [Security Review Checklist](../Checklists/Security_Review_Checklist.md)
 - [Stripe Integration Checklist](../Checklists/Stripe_Integration_Checklist.md)
 

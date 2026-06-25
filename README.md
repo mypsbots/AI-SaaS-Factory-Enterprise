@@ -22,13 +22,13 @@ the master prompts in [`_generators/`](_generators/), regenerable via
 | Type | Count |
 | --- | --- |
 | Specialist Skills | 37 |
-| Engineering Rules | 24 |
-| Quality Checklists | 18 |
+| Engineering Rules | 32 |
+| Quality Checklists | 24 |
 | Operational Playbooks | 12 |
 | Document Templates | 10 |
 | Knowledge Articles | 6 |
 | Department Indexes | 28 |
-| **Total Markdown documents** | **137** |
+| **Total Markdown documents** | **151** |
 
 ---
 
@@ -172,6 +172,14 @@ Idea → Product → Architecture → Security → AI → Backend → Frontend �
 - [Incident Management](Rules/Incident_Management.md)
 - [Compliance Standards](Rules/Compliance_Standards.md)
 - [Frontend Standards](Rules/Frontend_Standards.md)
+- [Data Engineering Standards](Rules/Data_Engineering_Standards.md)
+- [Data Governance Standards](Rules/Data_Governance_Standards.md)
+- [Architecture Governance Standards](Rules/Architecture_Governance_Standards.md)
+- [Document Lifecycle Governance](Rules/Document_Lifecycle_Governance.md)
+- [Contracting Standards](Rules/Contracting_Standards.md)
+- [Open Source Licensing Standards](Rules/Open_Source_Licensing_Standards.md)
+- [Pre Sales Engineering Standards](Rules/Pre_Sales_Engineering_Standards.md)
+- [Technology Governance Standards](Rules/Technology_Governance_Standards.md)
 
 ## Checklists
 
@@ -193,6 +201,12 @@ Idea → Product → Architecture → Security → AI → Backend → Frontend �
 - [Data Privacy Checklist](Checklists/Data_Privacy_Checklist.md)
 - [Observability Readiness Checklist](Checklists/Observability_Readiness_Checklist.md)
 - [Disaster Recovery Checklist](Checklists/Disaster_Recovery_Checklist.md)
+- [Contract Review Checklist](Checklists/Contract_Review_Checklist.md)
+- [Data Pipeline Readiness Checklist](Checklists/Data_Pipeline_Readiness_Checklist.md)
+- [Data Quality Checklist](Checklists/Data_Quality_Checklist.md)
+- [Sales POC Readiness Checklist](Checklists/Sales_POC_Readiness_Checklist.md)
+- [Document Quality Gate Checklist](Checklists/Document_Quality_Gate_Checklist.md)
+- [Quarterly Technology Review Checklist](Checklists/Quarterly_Technology_Review_Checklist.md)
 
 ## Playbooks
 

@@ -41,6 +41,10 @@ The Marketing department upholds the framework specification and cross-cutting p
 
 Documents directly relevant to the Marketing department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
 
+### Rules
+
+- [Pre Sales Engineering Standards](../Rules/Pre_Sales_Engineering_Standards.md)
+
 ### Checklists
 
 - [SEO AEO GEO Review Checklist](../Checklists/SEO_AEO_GEO_Review_Checklist.md)

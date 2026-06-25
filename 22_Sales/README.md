@@ -39,6 +39,14 @@ The Sales department upholds the framework specification and cross-cutting princ
 
 Documents directly relevant to the Sales department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
 
+### Rules
+
+- [Pre Sales Engineering Standards](../Rules/Pre_Sales_Engineering_Standards.md)
+
+### Checklists
+
+- [Sales POC Readiness Checklist](../Checklists/Sales_POC_Readiness_Checklist.md)
+
 ### Knowledge
 
 - [Engineering Principles](../Knowledge/Engineering_Principles.md)

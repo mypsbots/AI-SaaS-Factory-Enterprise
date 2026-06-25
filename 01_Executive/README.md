@@ -39,6 +39,14 @@ The Executive department upholds the framework specification and cross-cutting p
 
 Documents directly relevant to the Executive department. Browse the full libraries: [Rules](../Rules/) · [Checklists](../Checklists/) · [Playbooks](../Playbooks/) · [Templates](../Templates/) · [Knowledge](../Knowledge/).
 
+### Rules
+
+- [Technology Governance Standards](../Rules/Technology_Governance_Standards.md)
+
+### Checklists
+
+- [Quarterly Technology Review Checklist](../Checklists/Quarterly_Technology_Review_Checklist.md)
+
 ### Templates
 
 - [PRD Template](../Templates/PRD_Template.md)

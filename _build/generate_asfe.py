@@ -62,6 +62,10 @@ ROLE_TO_DEPT = {
     "Payments Engineer": "24_Finance",
     "Product Manager": "02_Product",
     "Customer Success": "23_CustomerSuccess",
+    "Data Engineer": "08_Data",
+    "Legal Counsel": "25_Legal",
+    "Sales Engineer": "22_Sales",
+    "Chief Technology Officer": "01_Executive",
 }
 
 TAG_TO_DEPTS = {

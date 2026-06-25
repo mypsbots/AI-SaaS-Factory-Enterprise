@@ -41,11 +41,15 @@ Documents directly relevant to the Data department. Browse the full libraries: [
 
 ### Rules
 
+- [Data Engineering Standards](../Rules/Data_Engineering_Standards.md)
+- [Data Governance Standards](../Rules/Data_Governance_Standards.md)
 - [Database Standards](../Rules/Database_Standards.md)
 - [RAG Standards](../Rules/RAG_Standards.md)
 
 ### Checklists
 
+- [Data Pipeline Readiness Checklist](../Checklists/Data_Pipeline_Readiness_Checklist.md)
+- [Data Quality Checklist](../Checklists/Data_Quality_Checklist.md)
 - [Database Migration Checklist](../Checklists/Database_Migration_Checklist.md)
 - [RAG Evaluation Checklist](../Checklists/RAG_Evaluation_Checklist.md)
 

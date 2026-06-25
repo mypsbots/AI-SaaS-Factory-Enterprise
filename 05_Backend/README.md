@@ -43,6 +43,7 @@ Documents directly relevant to the Backend department. Browse the full libraries
 
 - [API Standards](../Rules/API_Standards.md)
 - [Coding Standards](../Rules/Coding_Standards.md)
+- [Data Engineering Standards](../Rules/Data_Engineering_Standards.md)
 - [Database Standards](../Rules/Database_Standards.md)
 - [Error Handling](../Rules/Error_Handling.md)
 
@@ -50,6 +51,7 @@ Documents directly relevant to the Backend department. Browse the full libraries
 
 - [API Review Checklist](../Checklists/API_Review_Checklist.md)
 - [Code Review Checklist](../Checklists/Code_Review_Checklist.md)
+- [Data Pipeline Readiness Checklist](../Checklists/Data_Pipeline_Readiness_Checklist.md)
 - [Database Migration Checklist](../Checklists/Database_Migration_Checklist.md)
 
 ### Playbooks

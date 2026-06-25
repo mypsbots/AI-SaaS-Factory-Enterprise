@@ -46,11 +46,13 @@ Documents directly relevant to the Release department. Browse the full libraries
 - [Git And Version Control](../Rules/Git_And_Version_Control.md)
 - [Incident Management](../Rules/Incident_Management.md)
 - [Release Management](../Rules/Release_Management.md)
+- [Technology Governance Standards](../Rules/Technology_Governance_Standards.md)
 
 ### Checklists
 
 - [Incident Response Checklist](../Checklists/Incident_Response_Checklist.md)
 - [Production Release Checklist](../Checklists/Production_Release_Checklist.md)
+- [Quarterly Technology Review Checklist](../Checklists/Quarterly_Technology_Review_Checklist.md)
 
 ### Playbooks
 
